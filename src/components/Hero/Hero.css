@@ -1,0 +1,50 @@
+.hero-body {
+  width: 100%;
+  height: 560px;
+  padding: 4% 6.5%;
+  background-color: rgba(245, 247, 250, 1);
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.left-hero {
+  width: 60%;
+}
+
+.heading-hero {
+  padding: 30px;
+  padding-top: 60px;
+  font-size: 64px;
+  font-weight: 600;
+  color: rgba(77, 77, 77, 1);
+}
+
+.heading-hero span {
+  color: rgba(76, 175, 79, 1);
+}
+
+.caption-hero {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(113, 113, 113, 1);
+  padding-left: 30px;
+}
+
+.right-hero {
+  width: 40%;
+}
+
+.button-hero {
+  width: Hug (128px) px;
+  height: Hug (52px) px;
+  padding: 14px 32px 14px 32px;
+  margin-top: 30px;
+  border-radius: 4px;
+  opacity: 0px;
+  background-color: rgba(76, 175, 79, 1);
+  margin-left: 30px;
+  border: 0px;
+  color: rgba(245, 247, 250, 1); ;
+}
