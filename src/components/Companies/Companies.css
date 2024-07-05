@@ -1,0 +1,13 @@
+.cmp-body {
+  background-color: #fefeff;
+  text-align: center;
+  height: Fixed (98px) px;
+  gap: 0px;
+  display: flex;
+  justify-content: space-between;
+  opacity: 0px;
+  width: 90%;
+  margin: auto;
+  padding: 20px;
+  margin-top: 20px;
+}
