@@ -11,6 +11,7 @@ import InfoPage2 from '@/components/InfoPage2/InfoPage2'
 import InfoPage3 from '@/components/InfoPage3/InfoPage3'
 import Marketting from '@/components/Marketting/Marketting'
 import Demo from '@/components/Demo/Demo'
+import Footer from '@/components/Footer/Footer'
 export default function Home() {
   return (
     <>
@@ -26,6 +27,7 @@ export default function Home() {
       <InfoPage3/>
       <Marketting/>
       <Demo/>
+      <Footer/>
     </>
   );
 }
