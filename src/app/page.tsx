@@ -9,6 +9,8 @@ import InfoPage1 from '@/components/InfoPage1/InfoPage1'
 import DataPage from '@/components/DataPage/DataPage'
 import InfoPage2 from '@/components/InfoPage2/InfoPage2'
 import InfoPage3 from '@/components/InfoPage3/InfoPage3'
+import Marketting from '@/components/Marketting/Marketting'
+import Demo from '@/components/Demo/Demo'
 export default function Home() {
   return (
     <>
@@ -22,6 +24,8 @@ export default function Home() {
       <DataPage/>
       <InfoPage2/>
       <InfoPage3/>
+      <Marketting/>
+      <Demo/>
     </>
   );
 }

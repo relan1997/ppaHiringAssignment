@@ -1,0 +1,69 @@
+.mrkt-body {
+  height: Hug (506px) px;
+  gap: 16px;
+  opacity: 0px;
+  background-color: #fefeff;
+  margin: auto;
+  text-align: center;
+  margin-top: 40px;
+  padding-bottom: 10px;
+}
+
+.text-mrkt h1 {
+  font-family: "Inter";
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  text-align: center;
+  color: rgba(77, 77, 77, 1);
+  margin-bottom: 10px;
+}
+
+.text-mrkt p {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  color: rgba(113, 113, 113, 1);
+  margin: auto;
+  width: 628px;
+  margin-bottom: 10px;
+}
+
+.main-mrkt {
+  display: flex;
+  justify-content: center;
+}
+
+.ovr-the-img-mrkt {
+  box-shadow: 0px 8px 16px 0px rgba(171, 190, 209, 0.4);
+  position: relative;
+  left: 30px;
+  bottom: 80px;
+  text-align: center;
+  width: 257px;
+  height: 150px;
+  padding: 16px;
+  gap: 20px;
+  border-radius: 8px;
+  opacity: 0px;
+  background-color: rgba(245, 247, 250, 1);
+}
+
+.ovr-the-img-mrkt p {
+  font-family: "Inter";
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 22px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.ovr-the-img-mrkt button{
+    background-color: rgba(245, 247, 250, 1);
+    border: 0;
+    color: rgba(76, 175, 79, 1);
+    font-size: 1rem;
+    font-weight: 600;
+}
