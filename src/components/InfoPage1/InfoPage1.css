@@ -1,0 +1,45 @@
+.info-1-body {
+  height: Hug (433px) px;
+  gap: 0px;
+  opacity: 0px;
+  background-color: #fefeff;
+  display: flex;
+  padding: 0px 100px 30px 50px;
+  justify-content: space-evenly;
+}
+
+.content-info {
+  width: 45%;
+}
+
+.heading-info {
+  font-family: "Inter";
+  font-size: 01rem;
+  font-weight: 600;
+  line-height: 44px;
+  text-align: left;
+  color: rgba(77, 77, 77, 1);
+  margin-bottom: 10px;
+}
+
+.cap-info p{
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: rgba(113, 113, 113, 1);
+  margin-bottom: 20px
+}
+
+.lrn-btn-info{
+width: Hug (151px)px;
+height: Hug (52px)px;
+padding: 14px 32px 14px 32px;
+gap: 10px;
+border-radius: 4px;
+border: 0;
+opacity: 0px;
+background-color: rgba(76, 175, 79, 1);
+color: #fefeff;
+}

@@ -1,0 +1,77 @@
+.data-pg-body {
+  height: Hug (288px) px;
+  padding: 64px 100px 64px 100px;
+  gap: 0px;
+  display: flex;
+  justify-content: space-between;
+  opacity: 0px;
+  background-color: rgba(245, 247, 250, 1);
+}
+
+.numbers-section-data {
+  width: 50%;
+  margin: auto;
+}
+
+.num-data {
+  width: 50%;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.num-grp-data {
+  display: flex;
+  gap: 10px;
+}
+
+.content-div {
+  float: right;
+}
+
+.numbers-data {
+  font-family: "Inter";
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: left;
+  color: rgba(77, 77, 77, 1);
+}
+
+.numbers-cap-data {
+  font-family: Inter;
+  font-size: 0.8rem;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: rgba(113, 113, 113, 1);
+}
+
+.content-data {
+  margin: auto;
+  width: 540px;
+  height: Hug (120px) px;
+  gap: 8px;
+  opacity: 0px;
+}
+
+.content-data h1 {
+  font-family: Inter;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  text-align: left;
+  color: rgba(77, 77, 77, 1);
+}
+
+.content-data span {
+  color: rgba(76, 175, 79, 1);
+}
+
+.content-data p {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
