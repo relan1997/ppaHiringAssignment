@@ -1,0 +1,52 @@
+.info-2-body {
+  height: Hug (433.4px) px;
+  padding: 10px 100px 30px 40px;
+  gap: 0px;
+  display: flex;
+  justify-content: space-evenly;
+  opacity: 0px;
+  background-color: #fefeff;
+}
+
+.content-info-2 {
+  width: 45%;
+  margin-top: 50px;
+}
+
+.heading-info-2 {
+  margin-bottom: 10px;
+}
+
+.heading-info-2  {
+  font-family: "Inter";
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 44px;
+  text-align: left;
+  color: rgba(77, 77, 77, 1);
+}
+
+.cap-info-2 {
+  margin-bottom: 20px;
+}
+
+.cap-info-2 p {
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: rgba(113, 113, 113, 1);
+}
+
+.btn-info-2 button {
+  width: Hug (151px) px;
+  height: Hug (52px) px;
+  padding: 14px 32px 14px 32px;
+  gap: 10px;
+  border-radius: 4px;
+  border: 0;
+  opacity: 0px;
+  background-color: rgba(76, 175, 79, 1);
+  color: #fefeff;
+}

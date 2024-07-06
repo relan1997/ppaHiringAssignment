@@ -1,0 +1,60 @@
+.info-3-body {
+  height: Hug (433.4px) px;
+  padding: 30px 30px 30px 40px;
+  gap: 0px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  opacity: 0px;
+  background-color: rgba(245, 247, 250, 1);
+}
+
+.content-info-3 {
+  width: 55%;
+}
+
+.para-info-3 p{
+  font-family: "Inter";
+  font-size: 0.9rem;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color:rgba(113, 113, 113, 1)
+
+}
+
+.name-info-3 h1{
+font-family: "Inter";
+font-size: 1.1rem;
+font-weight: 600;
+line-height: 28px;
+text-align: left;
+color: rgba(76, 175, 79, 1);
+margin-top: 20px;
+}
+
+.name-info-3 {
+font-family: "Inter";
+font-size: 0.9rem;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+color: rgba(137, 147, 158, 0.7);
+}
+
+.logo-info-3{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-text-info-3 span{
+font-family: "Inter";
+font-size: 20px;
+font-weight: 600;
+line-height: 28px;
+text-align: left;
+color: rgba(76, 175, 79, 1);
+position: relative;
+top: 10px;
+}

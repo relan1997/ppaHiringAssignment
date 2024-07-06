@@ -7,6 +7,8 @@ import Management from '@/components/Management/Management'
 import Associations from '@/components/Associations/Associations'
 import InfoPage1 from '@/components/InfoPage1/InfoPage1'
 import DataPage from '@/components/DataPage/DataPage'
+import InfoPage2 from '@/components/InfoPage2/InfoPage2'
+import InfoPage3 from '@/components/InfoPage3/InfoPage3'
 export default function Home() {
   return (
     <>
@@ -18,6 +20,8 @@ export default function Home() {
       <Associations/>
       <InfoPage1/>
       <DataPage/>
+      <InfoPage2/>
+      <InfoPage3/>
     </>
   );
 }
