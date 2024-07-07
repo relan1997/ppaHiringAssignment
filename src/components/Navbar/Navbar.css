@@ -1,66 +1,131 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-*{
-    font-family: "Inter", sans-serif;
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+* {
+  font-family: "Inter", sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
-.navbar-body{
-    height: 84px;
-    width: 100%;
-    padding: 10px;
+.navbar-body {
+  height: 84px;
+  width: 100%;
+  padding: 10px;
+  background-color: rgba(245, 247, 250, 1);
+  display: flex;
+  justify-content: space-between;
+}
+
+.burger-btn-navbar {
+  display: none;
+}
+
+.logo-navbar {
+  font-size: 1.5rem;
+  padding-top: 15px;
+  width: 25%;
+  text-align: center;
+  font-weight: 700;
+}
+
+.main-navbar {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+}
+
+.main-navbar div {
+  width: 20%;
+  height: 100%;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.btns-navbar {
+  width: 25%;
+  text-align: center;
+  padding-top: 12px;
+}
+
+.btns-navbar button {
+  height: 40px;
+  padding: 0 20px;
+  font-weight: 400;
+}
+
+.login-navbar,
+.login-navbar-brgr {
+  background-color: rgba(245, 247, 250, 1);
+  border: 0px;
+  color: rgba(76, 175, 79, 1);
+}
+
+.sign-up-navbar,
+.sign-up-navbar-brgr {
+  background-color: rgba(76, 175, 79, 1);
+  border: 0px;
+  border-radius: 0.25rem;
+  color: rgba(245, 247, 250, 1);
+}
+
+@media (max-width: 770px) {
+  .burger-btn-navbar {
+    z-index: 30;
+    display: block;
+    position:absolute;
+    top: 30px;
+    left: 20px;
+  }
+
+  .navbar-body {
+    display: none;
+  }
+
+  .navbar-body-brgr {
+    position: absolute;
     background-color: rgba(245, 247, 250, 1);
+    height: 100vh;
+    width: 250px;
+    padding: 20px 20px;
+    text-align: center;
+  }
+
+  .logo-navbar-brgr {
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  .logo-navbar-brgr span {
+    margin-left: 10px;
+  }
+
+  .main-navbar-brgr {
+    width: 100%;
+    height: 80%;
     display: flex;
-    justify-content: space-between;
-}
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-evenly;
+  }
 
+  .btns-navbar-brgr {
+    width: 100%;
+  }
 
+  .main-navbar-brgr{
+    font-weight: 600;
+  }
 
-
-.logo-navbar{
-    font-size: 1.5rem;
-    padding-top: 15px;
-    width: 25%;
-    text-align: center;
-    font-weight: 700;
-}
-
-.main-navbar{
-    width: 50%;
-    display: flex;
-    flex-direction: row;
-}
-
-.main-navbar div{
-    width: 20%;
-    height: 100%;
-    text-align: center;
-    padding-top: 20px;
-}
-
-.btns-navbar{
-    width: 25%;
-    text-align: center;
-    padding-top: 12px;
-}
-
-.btns-navbar button{
+  .btns-navbar-brgr button {
     height: 40px;
     padding: 0 20px;
-    font-weight: 400;
-}
+    font-weight: 600;
+  }
 
-.login-navbar{
-    background-color:rgba(245, 247, 250, 1); 
-    border: 0px;
-    color: rgba(76, 175, 79, 1);
-    
+  .burger-btn-navbar button{
+  background-color: rgba(245, 247, 250, 1);
+  padding: 10px;
+  border-radius: 2rem;
+  border: 0;
+  
+  }
 }
-
-.sign-up-navbar{
-    background-color: rgba(76, 175, 79, 1); 
-    border: 0px;
-    border-radius: 0.25rem;
-    color:rgba(245, 247, 250, 1); 
-}
-
