@@ -40,3 +40,30 @@
   margin-top:10px ;
   padding: 0 20%;
 }
+
+@media (max-width:985px) {
+  .cap-asso{
+    padding: 0%;
+  }
+}
+
+@media (max-width:701px) {
+
+  .asso-body{
+    height: 220px;
+  }
+
+  .text-asso{
+    font-size: 0.7rem;
+  }
+
+  .cap-asso{
+    font-size: 0.7rem;
+    line-height: 15px;
+  }
+
+  .asso-1,.asso-2,.asso-3{
+    padding: 0 16px;
+  }
+
+}

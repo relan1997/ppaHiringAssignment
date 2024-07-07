@@ -62,3 +62,24 @@
   background-color: rgba(76, 175, 79, 1);
   color: #fefeff;
 }
+
+@media (max-width:900px) {
+    .info-2-body{
+      padding: 0 0 50px 0;
+      height: auto;
+    }
+
+    .heading-info-2{
+      font-size: 0.8rem;
+      line-height:30px ;
+    }
+
+    .cap-info-2 p{
+      font-size: 13px;
+    }
+
+    .img-info-2{
+      position: relative;
+      top: 10px;
+    }
+}

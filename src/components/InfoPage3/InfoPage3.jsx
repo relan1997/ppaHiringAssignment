@@ -34,43 +34,37 @@ const InfoPage3 = () => {
           <div className="logo-1-info-3">
             <Image
             src='./Info3-icon-1.svg'
-            height={44}
-            width={44}
+            fill
             />
           </div>
-          <div className="logo-2-info-3">
+          <div className="logo-1-info-3">
           <Image
             src='./Info3-icon-2.svg'
-            height={44}
-            width={44}
+            fill
             />
           </div>
-          <div className="logo-3-info-3">
+          <div className="logo-1-info-3">
           <Image
             src='./Info3-icon-3.svg'
-            height={44}
-            width={44}
+            fill
             />
           </div>
-          <div className="logo-4-info-3">
+          <div className="logo-1-info-3">
           <Image
             src='./Info3-icon-4.svg'
-            height={44}
-            width={44}
+            fill
             />
           </div>
-          <div className="logo-5-info-3">
+          <div className="logo-1-info-3">
           <Image
             src='./Info3-icon-5.svg'
-            height={44}
-            width={44}
+            fill
             />
           </div>
-          <div className="logo-6-info-3">
+          <div className="logo-1-info-3">
           <Image
             src='./Info3-icon-6.svg'
-            height={44}
-            width={44}
+            fill
             />
           </div>
           <div className="logo-text-info-3">

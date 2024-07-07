@@ -48,9 +48,16 @@ color: rgba(137, 147, 158, 0.7);
 }
 
 .logo-info-3{
+  
     margin-top: 20px;
     display: flex;
     justify-content: space-between;
+}
+
+.logo-1-info-3{
+  position: relative;
+  width: 44px;
+  height: 44px;
 }
 
 .logo-text-info-3 span{
@@ -62,4 +69,43 @@ text-align: left;
 color: rgba(76, 175, 79, 1);
 position: relative;
 top: 10px;
+}
+
+@media (max-width:900px) {
+  .logo-1-info-3{
+    position: relative;
+    width: 30px;
+    height: 30px;
+  }
+
+  .info-3-body{
+    padding: 30px 10px 30px 10px;
+  }
+
+  .para-info-3 p{
+    font-size: 0.8rem;
+    line-height: 24px;
+  }
+
+  .logo-text-info-3{
+    position: relative;
+    bottom: 10px;
+  }
+
+}
+
+@media (max-width:770px) {
+  .para-info-3 p{
+    font-size: 0.7rem;
+    line-height: 20px;
+  }
+
+  .content-info-3{
+    position: relative;
+    top: 20px;
+  }
+
+  .logo-text-info-3 span{
+    font-size: 15px;
+  }
 }

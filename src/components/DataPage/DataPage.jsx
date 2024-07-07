@@ -30,7 +30,7 @@ const DataPage = () => {
             <Image src="./data-3.svg" width={48} height={48} />
             <div className="content-div">
               <span className="numbers-data">828,867</span> <br />{" "}
-              <span className="numbers-cap-data">Event Bookings</span>{" "}
+              <span className="numbers-cap-data">Bookings</span>{" "}
             </div>
           </div>
           <div className="num-data">
