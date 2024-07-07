@@ -5,7 +5,7 @@ const InfoPage1 = () => {
   return (
     <div className="info-1-body">
       <div className="img-info">
-        <Image src="./rafiki.svg" width={442} height={329} />
+        <Image src="./rafiki.svg" fill />
       </div>
       <div className="content-info">
         <div className="heading-info">

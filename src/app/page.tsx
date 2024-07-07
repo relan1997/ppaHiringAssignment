@@ -24,10 +24,10 @@ export default function Home() {
       <InfoPage1/>
       <DataPage/>
       <InfoPage2/>
-      <InfoPage3/>
+      {/* <InfoPage3/>
       <Marketting/>
       <Demo/>
-      <Footer/>
+      <Footer/> */}
     </>
   );
 }

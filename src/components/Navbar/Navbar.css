@@ -20,13 +20,13 @@
 .logo-navbar{
     font-size: 1.5rem;
     padding-top: 15px;
-    width: 30%;
+    width: 25%;
     text-align: center;
     font-weight: 700;
 }
 
 .main-navbar{
-    width: 40%;
+    width: 50%;
     display: flex;
     flex-direction: row;
 }
@@ -39,7 +39,7 @@
 }
 
 .btns-navbar{
-    width: 30%;
+    width: 25%;
     text-align: center;
     padding-top: 12px;
 }

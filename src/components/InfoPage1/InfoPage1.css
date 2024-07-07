@@ -1,14 +1,28 @@
 .info-1-body {
-  height: Hug (433px) px;
+  height: 442px;
   gap: 0px;
   opacity: 0px;
   background-color: #fefeff;
   display: flex;
-  padding: 0px 100px 30px 50px;
-  justify-content: space-evenly;
+  padding: 0px 50px 50px 0px;
+  justify-content: center;
+  gap: 30px;
+}
+
+/* @media (max-width:1096px) {
+  .info-1-body{
+    justify-content: space-evenly;
+  }
+} */
+
+.img-info{
+  position: relative;
+  width: 40%;
 }
 
 .content-info {
+  position: relative;
+  top: 30px;
   width: 45%;
 }
 

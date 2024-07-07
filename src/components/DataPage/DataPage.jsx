@@ -18,7 +18,7 @@ const DataPage = () => {
             </div>
           </div>
           <div className="num-data">
-            <Image src="./data-2.svg" width={48} height={48} />
+            <Image src="/data-2.svg" width={48} height={48} style={{color:"#4CAF4F"}} />
             <div className="content-div">
               <span className="numbers-data">46,328</span> <br />{" "}
               <span className="numbers-cap-data">Clubs</span>{" "}

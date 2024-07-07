@@ -16,8 +16,7 @@ const Hero = () => {
         <div className='right-hero'>
             <Image
             src='/Illustration.svg'
-            height={407}
-            width={391}
+           fill
             />
         </div>
     </div>

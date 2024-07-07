@@ -33,6 +33,8 @@
 }
 
 .right-hero {
+  position: relative;
+  bottom: 20px;
   width: 40%;
 }
 

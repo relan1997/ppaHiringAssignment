@@ -25,6 +25,13 @@
   gap: 10px;
 }
 
+@media (max-width:1052px) {
+  .num-grp-data{
+    justify-content: flex-end;
+  }
+  
+}
+
 .content-div {
   float: right;
 }
