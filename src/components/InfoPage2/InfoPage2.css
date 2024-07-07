@@ -83,3 +83,13 @@
       top: 10px;
     }
 }
+
+@media (max-width:550px) {
+  .cap-info-2 p{
+    font-size: 10px;
+  }
+  .heading-info-2{
+    font-size: 0.7rem;
+    line-height:30px ;
+  }
+}

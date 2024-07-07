@@ -61,7 +61,39 @@
 
   .right-hero{
     bottom: 50px;
+  } 
+}
+
+@media (max-width:700px) {
+  .hero-body{
+    padding: 2% 2%;
+    height: fit-content;
   }
 
-  
+  .right-hero{
+    position: relative;
+    top: 10px;
+  }
+
+  .heading-hero{
+    font-size: 40px;
+  }
+}
+
+@media (max-width:530px) {
+  .heading-hero{
+    font-size: 30px;
+  }
+  .caption-hero{
+    font-size: 12px;
+  }
+}
+
+@media (max-width:530px) {
+  .heading-hero{
+    font-size: 25px;
+  }
+  .caption-hero{
+    font-size: 12px;
+  }
 }

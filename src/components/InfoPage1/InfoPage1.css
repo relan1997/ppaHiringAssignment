@@ -79,3 +79,19 @@
   }
   
 }
+
+@media (max-width:650px) {
+  .info-1-body{
+    flex-wrap: wrap;
+  }
+  
+  .content-info{
+    width: 50%;
+  }
+  
+  .cap-info p{
+    font-size: 10px;
+    line-height: 15px;
+  }
+}
+

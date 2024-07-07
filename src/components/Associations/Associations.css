@@ -67,3 +67,15 @@
   }
 
 }
+
+@media (max-width:540px) {
+  .asso-body{
+    height: fit-content;
+    flex-wrap: wrap;
+    margin-bottom: 0px;
+  }
+  .cap-asso{
+    margin: auto;
+    width: 60%;
+  }
+}

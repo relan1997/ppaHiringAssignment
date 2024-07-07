@@ -108,4 +108,46 @@ top: 10px;
   .logo-text-info-3 span{
     font-size: 15px;
   }
+
+  .img-info-3{
+    width: 50%;
+  }
+
+  .info-3-body{
+    gap: 5px;
+    height: auto;
+    padding-bottom: 60px;
+  }
+}
+
+@media (max-width:600px) {
+  .para-info-3 p{
+    font-size: 0.6rem;
+    line-height: 17px;
+  }
+
+  .logo-info-3{
+    flex-wrap: wrap;
+  }
+
+  .name-info-3 h1{
+    margin-top: 5px;
+    font-size: 0.8rem;
+  }
+
+  .name-info-3 p{
+    font-size: 0.7rem;
+  }
+
+  .content-info-3{
+    position: relative;
+    top: 40px;
+  }
+}
+
+@media (max-width:470px) {
+  .logo-info-3
+  {
+    margin-top: 5px;
+  }
 }

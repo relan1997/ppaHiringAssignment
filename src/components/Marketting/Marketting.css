@@ -92,3 +92,31 @@
   font-size: 1rem;
   font-weight: 600;
 }
+
+@media (max-width:700px) {
+  .ovr-the-img-mrkt p{
+    font-size: 0.7rem;
+    line-height: 16px;
+  }
+
+  .text-mrkt p{
+    font-size: 14px;
+    width: 95%;
+  }
+}
+
+@media (max-width:500px) {
+  .main-mrkt{
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+
+  .mrkt-body{
+    height: fit-content;
+    padding: 30px;
+  }
+
+  .img-mrkt{
+    width: 250px;
+  }
+}
