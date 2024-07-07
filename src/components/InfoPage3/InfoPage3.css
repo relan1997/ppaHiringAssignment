@@ -1,5 +1,5 @@
 .info-3-body {
-  height: Hug (433.4px) px;
+  height: 433.4px;
   padding: 30px 30px 30px 40px;
   gap: 0px;
   display: flex;
@@ -9,8 +9,13 @@
   background-color: rgba(245, 247, 250, 1);
 }
 
+.img-info-3{
+  position: relative;
+  width: 40%;
+}
+
 .content-info-3 {
-  width: 55%;
+  width: 60%;
 }
 
 .para-info-3 p{

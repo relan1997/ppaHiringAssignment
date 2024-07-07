@@ -7,8 +7,7 @@ const InfoPage3 = () => {
       <div className="img-info-3">
         <Image
           src="./Info3-main.svg"
-          width={366}
-          height={366}
+          fill
           style={{ borderRadius: "8px" }}
         />
       </div>
